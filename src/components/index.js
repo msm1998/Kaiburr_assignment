@@ -4,10 +4,11 @@ import {NavLink} from 'react-router-dom';
 const index =()=>{
     return(
             <div className="container">
-                <ul className="right">
-                    <li><NavLink to="/create">create</NavLink></li>
-                    <li><NavLink to="/show">show</NavLink></li>
-                    <li><NavLink to="/delete">delete</NavLink></li>
+                <h1>webUI for flask</h1>
+                <ul>
+                    <h1><NavLink to="/create">create</NavLink></h1>
+                    <h1><NavLink to="/show">show</NavLink></h1>
+                    <h1><NavLink to="/delete">delete</NavLink></h1>
                 </ul>
             </div>        
     )

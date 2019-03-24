@@ -46,24 +46,25 @@ class create extends Component {
                         Create
                       </h5>
                     <div className="input-field">
-                        <label htmlFor="title">ID</label>
                         <input type="text" id="id" onChange={this.handleChange} />
+                        <label for="title">ID</label>
+
                     </div>
                     <div className="input-field">
-                        <label htmlFor="content">Name</label>
                         <input type="text" id="name" onChange={this.handleChange} />
+                        <label for="name">Name</label>
                     </div>
                     <div className="input-field">
-                        <label htmlFor="content">Lnaguage</label>
                         <input type="text" id="language" onChange={this.handleChange} />
+                        <label for="language">Language</label>
                     </div>
                     <div className="input-field">
-                        <label htmlFor="content">Framework</label>
                         <input type="text" id="framework" onChange={this.handleChange} />
+                        <label for="framework">Framework</label>
                     </div>
                     <button className="btn pink lighen-1 z-depth-0">Create</button>
                 </form>
-                
+
             </div>
         )
     }
